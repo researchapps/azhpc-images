@@ -1,6 +1,8 @@
 #!/bin/bash
 set -ex
 
+# TODO this needs to be run on the pod
+
 source ${COMMON_DIR}/utilities.sh
 
 doca_metadata=$(get_component_config "doca")
